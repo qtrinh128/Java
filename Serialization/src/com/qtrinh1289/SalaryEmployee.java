@@ -9,7 +9,8 @@ public class SalaryEmployee extends Employee {
 	private String position;
 	private float salary;
 	private float bonus;
-
+	static int count = 10;
+	
 	public SalaryEmployee(String id, String name, int age, boolean gender, String position, float salary, float bonus) {
 		super(id, name, age, gender);
 		this.position = position;

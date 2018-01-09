@@ -15,6 +15,7 @@ public class DeSerialization {
 			ois = new ObjectInputStream(fis);
 			salaryEmployee = (SalaryEmployee)ois.readObject();
 			System.out.println(salaryEmployee.toString());
+			System.out.println(salaryEmployee.count);
 		} catch (Exception e) {
 			if(fis != null) {
 				fis.close();

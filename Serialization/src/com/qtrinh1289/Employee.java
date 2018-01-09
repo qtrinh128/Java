@@ -12,7 +12,6 @@ public class Employee implements Serializable{
 	protected int age;
 	protected boolean gender;
 	
-	
 	public Employee(String id, String name, int age, boolean gender) {
 		super();
 		this.id = id;
